@@ -1,7 +1,7 @@
 const submitButton = document.querySelector(".submit");
 if(localStorage.getItem('userData')!==null){
   alert("Already logged in!")
-  window.location.href = "/sign-in-succesful.html";
+  window.location.href = "https://amir0707k.github.io/Signup-portal/sign-in-succesful.html";
 }
 submitButton.addEventListener("click", (event) => {
   const nameValue = document.getElementById("name").value;
