@@ -10,5 +10,5 @@ userInfo.innerHTML = `
 `;
 document.getElementById("logout").addEventListener("click",()=>{
     localStorage.removeItem('userData');
-    window.location.href = "/index.html"
+    window.location.href = "https://amir0707k.github.io/Signup-portal/index.html"
 });
