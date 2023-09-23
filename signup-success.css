@@ -237,9 +237,67 @@ h2{
         font-size: 20px;
     }
 }
+@media screen and (max-width:825px) {
+   .success{
+        width: 60vw;
+        height: fit-content;
+        padding: 20px;
+    }
+    .user-dp{
+        height: 16vw;
+        width: 16vw;
+        border-radius: 50%;   
+    }
+    .user-info p{
+        font-size: 14px;
+        font-weight: 300;
+        font-size: sans-serif;
+    }
+    #logout{
+        padding: 10px;
+        width: 70%;
+        margin-top: 14px;
+        border-radius: 12px;
+        font-size: 14px;
+        background-color: blueviolet;
+        cursor:pointer
+    }
+    #sign-up{
+        font-size: 20px;
+    }
+}
 @media screen and (max-width:750px) and (max-height:800px) {
    .success{
         width: 50vw;
+        height: fit-content;
+        padding: 20px;
+    }
+    .user-dp{
+        height: 18vw;
+        width: 18vw;
+        border-radius: 50%;   
+    }
+    .user-info p{
+        font-size: 14px;
+        font-weight: 300;
+        font-size: sans-serif;
+    }
+    #logout{
+           padding: 10px;
+    width: 70%;
+    margin-top: 14px;
+    border-radius: 12px;
+    font-size: 14px;
+    background-color: blueviolet;
+    cursor:pointer
+    }
+    #sign-up{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:750px) {
+   .success{
+        width: 60vw;
         height: fit-content;
         padding: 20px;
     }
@@ -296,7 +354,70 @@ h2{
         font-size: 20px;
     }
 }
+@media screen and (max-width:500px){
+   .success{
+        width: 60vw;
+        height: fit-content;
+        padding: 20px;
+    }
+    .user-dp{
+        height: 21vw;
+        width: 21vw;
+        border-radius: 50%;   
+    }
+    .user-info p{
+        font-size: 14px;
+        font-weight: 300;
+        font-size: sans-serif;
+    }
+    #logout{
+    padding: 10px;
+    width: 70%;
+    margin-top: 14px;
+    border-radius: 12px;
+    font-size: 14px;
+    background-color: blueviolet;
+    cursor:pointer
+    }
+    #sign-up{
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width:400px) and (max-height:800px) {
+   .success{
+        width: 60vw;
+        height: fit-content;
+        padding: 20px;
+    }
+    .user-dp{
+        height: 24vw;
+        width: 24vw;
+        border-radius: 50%;   
+    }
+    .user-info p{
+        font-size: 12px;
+        font-weight: 300;
+        font-size: sans-serif;
+    }
+    #logout{
+    padding: 10px;
+    width: 70%;
+    margin-top: 14px;
+    border-radius: 12px;
+    font-size: 10px;
+    background-color: blueviolet;
+    cursor:pointer
+    }
+    #sign-up{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:400px){
    .success{
         width: 60vw;
         height: fit-content;
