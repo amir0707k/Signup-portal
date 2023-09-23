@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+body{
+    font-family: 'Prompt', sans-serif;
+}
+
+#sign-up{
+    color: #5148EE;
+    font-size: 28px;
+    font-weight: 400;
+}
+.profile-pic{
+    margin-top: 40px;
+}
+h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.user-info{
+    margin-top: 20px;
+}
+.user-info p{
+    font-size: 1.7vw;
+    font-weight: 300;
+    line-height: 5vh;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* background styling */
+.container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 100vh;
+    overflow: hidden;
+}
+.line{
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    box-sizing: border-box;
+    background: blueviolet;
+}
+.line-1{
+    z-index: 15;
+    opacity: 0.5;
+}
+.line-2{
+    z-index: 10;
+    opacity: 0.7;
+}
+.line-3{
+    z-index: 5;
+}
+.wave{
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    box-sizing: border-box;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.wave1{
+    background-size: 50% 80px;
+}
+.wave2{
+    background-size: 50% 100px;
+    animation: animate 12s linear infinite;
+}
+
+.wave3{
+    background-size: 50% 120px;
+    animation: animate 18s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: translateX(0) translateZ(0) scaleY(1);
+    }
+    50%{
+        transform: translateX(-25%) translateZ(0) scaleY(0.5);
+    }
+    100%{
+        transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
+}
+.success{
+    position: absolute;
+    z-index: 100;
+    border: none;
+    background-color: #F9FAFD;
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    box-shadow: 0 0 20px rgba(114, 112, 112, 0.5);
+    border-radius: 4px;
+}
+.user-dp{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;   
+}
+#logout{
+    padding: 22px;
+    border: none;
+    width: 100%;
+    margin-top: 36px;
+    color: white;
+    font-weight: 600;
+    border-radius: 12px;
+    font-size: 18px;
+    background-color: #524AF1;
+}
