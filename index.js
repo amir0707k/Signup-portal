@@ -23,7 +23,7 @@ submitButton.addEventListener("click", (event) => {
         token:token
     }
     localStorage.setItem("userData",JSON.stringify(userData))
-    window.location.href = "/sign-in-succesful.html"
+    window.location.href = "https://amir0707k.github.io/Signup-portal/sign-in-succesful.html"
   }
 });
 
