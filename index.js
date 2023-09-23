@@ -1,4 +1,8 @@
 const submitButton = document.querySelector(".submit");
+if(localStorage.getItem('userData')!==null){
+  alert("Already logged in!")
+  window.location.href = "/sign-in-succesful.html";
+}
 submitButton.addEventListener("click", (event) => {
   const nameValue = document.getElementById("name").value;
   const emailValue = document.getElementById("email").value;
